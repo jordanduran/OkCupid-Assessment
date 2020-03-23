@@ -1,15 +1,3 @@
-# OkCupid Take-Home Exercise
-
-Welcome to the OkCupid take-home exercise! This will roughly model the type of
-projects you'd work on at OkCupid.
-
-This repository contains the structure of a React/Redux application, as well as
-a webpack setup to compile the files. We'd like you to use them to implement a
-feature for us.
-
-Approach this exercise as if you worked here: make sure your code is clear and
-concise, and use your time wisely.
-
 ## The feature
 
 A feature of OkCupid, and one of the things that differentiates our site, is
@@ -36,47 +24,40 @@ build, and a refresh.
 
 ## What's there
 
-* Screenshots of the app's design, in `/assets/`.
-* The main app folder, `/src/`, where you'll be making your changes.
-* A [ducks](https://medium.com/@scbarrus/the-ducks-file-structure-for-redux-d63c41b7035c#.5chqfp84p)
+- Screenshots of the app's design, in `/assets/`.
+- The main app folder, `/src/`, where you'll be making your changes.
+- A [ducks](https://medium.com/@scbarrus/the-ducks-file-structure-for-redux-d63c41b7035c#.5chqfp84p)
   file, `/src/madlibs.js`. This file contains the reducer, the initial state,
   along with some example actions.
-* A constants file, `/src/constants.js`. It contains the questions and
+- A constants file, `/src/constants.js`. It contains the questions and
   potential essay templates.
-* A helpers file, `/src/helpers.js`. It contains a function with templates
+- A helpers file, `/src/helpers.js`. It contains a function with templates
   for a given field.
-* A folder for React components, `/src/components/`.
+- A folder for React components, `/src/components/`.
 
 ## Requirements
 
-* Prompts appear in the left column, and the essay preview on the right.
-* Each "prompt" consists of a question and an input.
-* When the user blurs the input, the app should "save" their response and
+- Prompts appear in the left column, and the essay preview on the right.
+- Each "prompt" consists of a question and an input.
+- When the user blurs the input, the app should "save" their response and
   update the essay preview.
-* To generate the essay preview, choose one of the available templates at
+- To generate the essay preview, choose one of the available templates at
   random.
-* Changing one answer should re-roll that answer's template, but not the
+- Changing one answer should re-roll that answer's template, but not the
   chosen templates of other fields.
-* The user's responses in the essay preview should be bold.
-* When the user has answered and blurred all questions, an "Edit" button
+- The user's responses in the essay preview should be bold.
+- When the user has answered and blurred all questions, an "Edit" button
   appears.
-* When a user clicks "Edit", replace both columns with a centered textarea
+- When a user clicks "Edit", replace both columns with a centered textarea
   containing the generated essay content.
-* When a user clicks "Start over", they should see the original screen
+- When a user clicks "Start over", they should see the original screen
   without any user text.
 
 Some more details:
 
-* Don't worry about vendor prefixes; target the latest version of Chrome.
-* The app should compile without any errors.
-* Create as many or as few subcomponents as you like.
-* Use whatever libraries you want. (But remember: if you worked here, we would
+- Don't worry about vendor prefixes; target the latest version of Chrome.
+- The app should compile without any errors.
+- Create as many or as few subcomponents as you like.
+- Use whatever libraries you want. (But remember: if you worked here, we would
   want to pay attention to payload size. Choose wisely!)
-* Eyeball the margins, paddings, and colors.
-
-## When you're done
-
-Remove the `node_modules` directory, zip up this project directory, and send it
-back to us.
-
-Thanks for your time, and good luck! We look forward to hearing from you!
+- Eyeball the margins, paddings, and colors.
