@@ -25,7 +25,7 @@ App.propTypes = {
   dispatch: PropTypes.func.isRequired,
   essayText: PropTypes.string.isRequired,
   showEditForm: PropTypes.bool.isRequired,
-  showEditButton: PropTypes.bool.isRequired
+  showEditButton: PropTypes.bool
 };
 
 function mapStateToProps(state) {
