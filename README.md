@@ -61,3 +61,7 @@ Some more details:
 - Use whatever libraries you want. (But remember: if you worked here, we would
   want to pay attention to payload size. Choose wisely!)
 - Eyeball the margins, paddings, and colors.
+
+## Deployment Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fc10769d-cdbc-483b-9593-185b68060f57/deploy-status)](https://app.netlify.com/sites/okcupidassessment/deploys)
